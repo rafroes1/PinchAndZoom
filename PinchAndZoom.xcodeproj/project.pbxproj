@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		897F8778298174AA0061B50F /* PinchAndZoomApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 897F8777298174AA0061B50F /* PinchAndZoomApp.swift */; };
+		897F877A298174AA0061B50F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 897F8779298174AA0061B50F /* ContentView.swift */; };
+		897F877C298174AC0061B50F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 897F877B298174AC0061B50F /* Assets.xcassets */; };
+		897F877F298174AC0061B50F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 897F877E298174AC0061B50F /* Preview Assets.xcassets */; };
+		897F8789298174AC0061B50F /* PinchAndZoomTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 897F8788298174AC0061B50F /* PinchAndZoomTests.swift */; };
+		897F8793298174AC0061B50F /* PinchAndZoomUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 897F8792298174AC0061B50F /* PinchAndZoomUITests.swift */; };
+		897F8795298174AC0061B50F /* PinchAndZoomUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 897F8794298174AC0061B50F /* PinchAndZoomUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		897F8785298174AC0061B50F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 897F876C298174AA0061B50F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 897F8773298174AA0061B50F;
+			remoteInfo = PinchAndZoom;
+		};
+		897F878F298174AC0061B50F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 897F876C298174AA0061B50F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 897F8773298174AA0061B50F;
+			remoteInfo = PinchAndZoom;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		897F8774298174AA0061B50F /* PinchAndZoom.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PinchAndZoom.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		897F8777298174AA0061B50F /* PinchAndZoomApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinchAndZoomApp.swift; sourceTree = "<group>"; };
+		897F8779298174AA0061B50F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		897F877B298174AC0061B50F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		897F877E298174AC0061B50F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		897F8784298174AC0061B50F /* PinchAndZoomTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PinchAndZoomTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		897F8788298174AC0061B50F /* PinchAndZoomTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinchAndZoomTests.swift; sourceTree = "<group>"; };
+		897F878E298174AC0061B50F /* PinchAndZoomUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PinchAndZoomUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		897F8792298174AC0061B50F /* PinchAndZoomUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinchAndZoomUITests.swift; sourceTree = "<group>"; };
+		897F8794298174AC0061B50F /* PinchAndZoomUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinchAndZoomUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		897F8771298174AA0061B50F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		897F8781298174AC0061B50F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		897F878B298174AC0061B50F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		897F876B298174AA0061B50F = {
+			isa = PBXGroup;
+			children = (
+				897F8776298174AA0061B50F /* PinchAndZoom */,
+				897F8787298174AC0061B50F /* PinchAndZoomTests */,
+				897F8791298174AC0061B50F /* PinchAndZoomUITests */,
+				897F8775298174AA0061B50F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		897F8775298174AA0061B50F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				897F8774298174AA0061B50F /* PinchAndZoom.app */,
+				897F8784298174AC0061B50F /* PinchAndZoomTests.xctest */,
+				897F878E298174AC0061B50F /* PinchAndZoomUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		897F8776298174AA0061B50F /* PinchAndZoom */ = {
+			isa = PBXGroup;
+			children = (
+				897F8777298174AA0061B50F /* PinchAndZoomApp.swift */,
+				897F8779298174AA0061B50F /* ContentView.swift */,
+				897F877B298174AC0061B50F /* Assets.xcassets */,
+				897F877D298174AC0061B50F /* Preview Content */,
+			);
+			path = PinchAndZoom;
+			sourceTree = "<group>";
+		};
+		897F877D298174AC0061B50F /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				897F877E298174AC0061B50F /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		897F8787298174AC0061B50F /* PinchAndZoomTests */ = {
+			isa = PBXGroup;
+			children = (
+				897F8788298174AC0061B50F /* PinchAndZoomTests.swift */,
+			);
+			path = PinchAndZoomTests;
+			sourceTree = "<group>";
+		};
+		897F8791298174AC0061B50F /* PinchAndZoomUITests */ = {
+			isa = PBXGroup;
+			children = (
+				897F8792298174AC0061B50F /* PinchAndZoomUITests.swift */,
+				897F8794298174AC0061B50F /* PinchAndZoomUITestsLaunchTests.swift */,
+			);
+			path = PinchAndZoomUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		897F8773298174AA0061B50F /* PinchAndZoom */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 897F8798298174AC0061B50F /* Build configuration list for PBXNativeTarget "PinchAndZoom" */;
+			buildPhases = (
+				897F8770298174AA0061B50F /* Sources */,
+				897F8771298174AA0061B50F /* Frameworks */,
+				897F8772298174AA0061B50F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PinchAndZoom;
+			productName = PinchAndZoom;
+			productReference = 897F8774298174AA0061B50F /* PinchAndZoom.app */;
+			productType = "com.apple.product-type.application";
+		};
+		897F8783298174AC0061B50F /* PinchAndZoomTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 897F879B298174AC0061B50F /* Build configuration list for PBXNativeTarget "PinchAndZoomTests" */;
+			buildPhases = (
+				897F8780298174AC0061B50F /* Sources */,
+				897F8781298174AC0061B50F /* Frameworks */,
+				897F8782298174AC0061B50F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				897F8786298174AC0061B50F /* PBXTargetDependency */,
+			);
+			name = PinchAndZoomTests;
+			productName = PinchAndZoomTests;
+			productReference = 897F8784298174AC0061B50F /* PinchAndZoomTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		897F878D298174AC0061B50F /* PinchAndZoomUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 897F879E298174AC0061B50F /* Build configuration list for PBXNativeTarget "PinchAndZoomUITests" */;
+			buildPhases = (
+				897F878A298174AC0061B50F /* Sources */,
+				897F878B298174AC0061B50F /* Frameworks */,
+				897F878C298174AC0061B50F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				897F8790298174AC0061B50F /* PBXTargetDependency */,
+			);
+			name = PinchAndZoomUITests;
+			productName = PinchAndZoomUITests;
+			productReference = 897F878E298174AC0061B50F /* PinchAndZoomUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		897F876C298174AA0061B50F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					897F8773298174AA0061B50F = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+					897F8783298174AC0061B50F = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = 897F8773298174AA0061B50F;
+					};
+					897F878D298174AC0061B50F = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = 897F8773298174AA0061B50F;
+					};
+				};
+			};
+			buildConfigurationList = 897F876F298174AA0061B50F /* Build configuration list for PBXProject "PinchAndZoom" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 897F876B298174AA0061B50F;
+			productRefGroup = 897F8775298174AA0061B50F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				897F8773298174AA0061B50F /* PinchAndZoom */,
+				897F8783298174AC0061B50F /* PinchAndZoomTests */,
+				897F878D298174AC0061B50F /* PinchAndZoomUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		897F8772298174AA0061B50F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				897F877F298174AC0061B50F /* Preview Assets.xcassets in Resources */,
+				897F877C298174AC0061B50F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		897F8782298174AC0061B50F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		897F878C298174AC0061B50F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		897F8770298174AA0061B50F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				897F877A298174AA0061B50F /* ContentView.swift in Sources */,
+				897F8778298174AA0061B50F /* PinchAndZoomApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		897F8780298174AC0061B50F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				897F8789298174AC0061B50F /* PinchAndZoomTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		897F878A298174AC0061B50F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				897F8795298174AC0061B50F /* PinchAndZoomUITestsLaunchTests.swift in Sources */,
+				897F8793298174AC0061B50F /* PinchAndZoomUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		897F8786298174AC0061B50F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 897F8773298174AA0061B50F /* PinchAndZoom */;
+			targetProxy = 897F8785298174AC0061B50F /* PBXContainerItemProxy */;
+		};
+		897F8790298174AC0061B50F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 897F8773298174AA0061B50F /* PinchAndZoom */;
+			targetProxy = 897F878F298174AC0061B50F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		897F8796298174AC0061B50F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		897F8797298174AC0061B50F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		897F8799298174AC0061B50F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PinchAndZoom/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = carvalhofroesrafa.PinchAndZoom;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		897F879A298174AC0061B50F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PinchAndZoom/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = carvalhofroesrafa.PinchAndZoom;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		897F879C298174AC0061B50F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = carvalhofroesrafa.PinchAndZoomTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PinchAndZoom.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PinchAndZoom";
+			};
+			name = Debug;
+		};
+		897F879D298174AC0061B50F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = carvalhofroesrafa.PinchAndZoomTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PinchAndZoom.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PinchAndZoom";
+			};
+			name = Release;
+		};
+		897F879F298174AC0061B50F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = carvalhofroesrafa.PinchAndZoomUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PinchAndZoom;
+			};
+			name = Debug;
+		};
+		897F87A0298174AC0061B50F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = carvalhofroesrafa.PinchAndZoomUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PinchAndZoom;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		897F876F298174AA0061B50F /* Build configuration list for PBXProject "PinchAndZoom" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				897F8796298174AC0061B50F /* Debug */,
+				897F8797298174AC0061B50F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		897F8798298174AC0061B50F /* Build configuration list for PBXNativeTarget "PinchAndZoom" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				897F8799298174AC0061B50F /* Debug */,
+				897F879A298174AC0061B50F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		897F879B298174AC0061B50F /* Build configuration list for PBXNativeTarget "PinchAndZoomTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				897F879C298174AC0061B50F /* Debug */,
+				897F879D298174AC0061B50F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		897F879E298174AC0061B50F /* Build configuration list for PBXNativeTarget "PinchAndZoomUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				897F879F298174AC0061B50F /* Debug */,
+				897F87A0298174AC0061B50F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 897F876C298174AA0061B50F /* Project object */;
+}
